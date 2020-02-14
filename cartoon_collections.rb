@@ -13,7 +13,7 @@ end
 
 def long_planeteer_calls(array)
   # Your code here
-  
+  res1 = enu1.any? { |num| num.length > 4}  
   
 end
 
