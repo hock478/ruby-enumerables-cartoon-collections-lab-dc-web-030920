@@ -21,6 +21,6 @@ def find_the_cheese(array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   
-  result = sharks.find {|item| item.include?("cheddar") || }
+  result = sharks.find {|item| item.include?("cheddar") || item.include?("gouda") || item.include?("camembert")}
   return result
 end
